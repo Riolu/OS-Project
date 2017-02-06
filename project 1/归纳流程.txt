@@ -1,0 +1,17 @@
+sudo passwd root
+sudo apt-get update
+apt-get install vim
+apt-get install libncurses5-dev  
+apt-get install libssl-dev
+
+apt-get install linux-source  在/usr/src目录找
+tar -xvf 
+
+vim userspace.c
+gcc -o test userspace.c
+./test
+dmesg |grep "Hello"
+
+
+
+ls 显示目录下文件
